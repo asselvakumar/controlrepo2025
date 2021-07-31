@@ -1,0 +1,7 @@
+---
+puppet_metrics_collector::puppetserver_hosts:
+ - 'master20197.platform9.puppet.net'
+ - 'compiler01.platform9.puppet.net'
+ - 'compilerexttest.platform9.puppet.net'
+puppet_metrics_collector::puppetdb_hosts:
+ - 'master20197.platform9.puppet.net'
