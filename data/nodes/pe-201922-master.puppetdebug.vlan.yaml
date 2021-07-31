@@ -19,3 +19,9 @@ puppet_enterprise::master::puppetserver::reserved_code_cache: 192m
 puppet_infrastructure_tune::metadata:
   pe_version: 2019.7.0
   tune_date: '2020-06-07'
+puppet_metrics_collector::puppetserver_hosts:
+ - 'master20197.platform9.puppet.net'
+ - 'compiler01.platform9.puppet.net'
+ - 'compilerexttest.platform9.puppet.net'
+puppet_metrics_collector::puppetdb_hosts:
+ - 'master20197.platform9.puppet.net'
