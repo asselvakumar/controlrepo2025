@@ -36,7 +36,7 @@ mod 'puppetlabs-puppet_metrics_collector', '7.0.3'
 mod 'puppetlabs-puppet_metrics_dashboard', '2.5.0'
 
 mod 'puppet-grafana', '7.0.0'
-mod 'puppet-archive', '5.0.0'
+mod 'puppet-archive', '4.6.0'
 
 mod 'puppet-telegraf', '3.1.0'
 mod 'puppetlabs-puppetserver_gem', '1.1.1'
