@@ -33,12 +33,12 @@ mod 'puppetlabs-ca_extend', '2.1.0'
 
 mod 'puppetlabs-puppet_metrics_collector', '7.0.3'
 
-mod 'puppetlabs-puppet_metrics_dashboard', '2.5.0'
+#mod 'puppetlabs-puppet_metrics_dashboard', '2.5.0'
 
-mod 'puppet-grafana', '8.0.0'
-mod 'puppet-archive', '5.0.0'
+#mod 'puppet-grafana', '8.0.0'
+#mod 'puppet-archive', '5.0.0'
 
-mod 'puppet-telegraf', '4.1.0'
+#mod 'puppet-telegraf', '4.1.0'
 mod 'puppetlabs-puppetserver_gem', '1.1.1'
 
 
