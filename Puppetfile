@@ -16,10 +16,10 @@ forge 'https://forge.puppet.com'
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
 
-mod 'puppetlabs-stdlib', '6.0.0'
-mod 'puppetlabs-inifile', '2.5.0'
+mod 'puppetlabs-stdlib', '7.0.0'
+mod 'puppetlabs-inifile', '5.1.0'
 mod 'puppetlabs-translate', '2.0.0'
-mod 'puppetlabs-apt', '7.1.0'
+mod 'puppetlabs-apt', '8.1.0'
 mod 'puppetlabs-facts', '0.6.0'
 mod 'puppetlabs-concat', '6.1.0'
 mod 'puppetlabs-haproxy', '4.0.0'
@@ -28,4 +28,17 @@ mod 'puppetlabs-exec', '0.8.0'
 mod 'puppetlabs-puppet_agent', '4.5.0'
 # mod 'puppetlabs-dsc', '1.9.4'
 mod 'puppetlabs-ca_extend', '2.1.0'
+
+# Below items are for the Metric collector and dashboard setup
+
 mod 'puppetlabs-puppet_metrics_collector', '7.0.3'
+
+mod 'puppetlabs-puppet_metrics_dashboard', '2.5.0'
+
+mod 'puppet-grafana', '8.0.0'
+mod 'puppet-archive', '5.0.0'
+
+mod 'puppet-telegraf', '4.1.0'
+mod 'puppetlabs-puppetserver_gem', '1.1.1'
+
+
