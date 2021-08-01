@@ -17,9 +17,9 @@ forge 'https://forge.puppet.com'
 #  branch: 'docs_experiment'
 
 mod 'puppetlabs-stdlib', '6.6.0'
-mod 'puppetlabs-inifile', '5.1.0'
+mod 'puppetlabs-inifile', '4.4.0'
 mod 'puppetlabs-translate', '2.0.0'
-mod 'puppetlabs-apt', '8.1.0'
+mod 'puppetlabs-apt', '7.7.1'
 mod 'puppetlabs-facts', '0.6.0'
 mod 'puppetlabs-concat', '6.1.0'
 mod 'puppetlabs-haproxy', '4.0.0'
@@ -35,10 +35,10 @@ mod 'puppetlabs-puppet_metrics_collector', '7.0.3'
 
 mod 'puppetlabs-puppet_metrics_dashboard', '2.5.0'
 
-mod 'puppet-grafana', '8.0.0'
+mod 'puppet-grafana', '7.0.0'
 mod 'puppet-archive', '5.0.0'
 
-mod 'puppet-telegraf', '4.1.0'
+mod 'puppet-telegraf', '3.1.0'
 mod 'puppetlabs-puppetserver_gem', '1.1.1'
 
 
