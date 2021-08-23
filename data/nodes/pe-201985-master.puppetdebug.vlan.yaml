@@ -1,0 +1,2 @@
+---
+puppet_enterprise::console_services::socket_timeout: 0
