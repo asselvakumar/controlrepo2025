@@ -16,7 +16,6 @@ forge 'https://forge.puppet.com'
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
 
-mod 'puppetlabs-stdlib', '6.6.0'
 mod 'puppetlabs-inifile', '4.4.0'
 mod 'puppetlabs-translate', '2.0.0'
 mod 'puppetlabs-apt', '7.7.1'
@@ -40,5 +39,16 @@ mod 'puppet-archive', '4.6.0'
 
 mod 'puppet-telegraf', '3.1.0'
 mod 'puppetlabs-puppetserver_gem', '1.1.1'
+
+#Below items are for the SCE modules:
+mod 'puppetlabs-stdlib', '6.6.0'
+mod 'dsc-networkingdsc', '9.1.0-0-0'
+mod 'dsc-auditpolicydsc', '1.4.0-0-9'
+mod 'dsc-securitypolicydsc', '2.10.0-0-9'
+mod 'puppetlabs-pwshlib', '2.0.0'
+mod 'puppetlabs-powershell', '6.1.0'
+
+
+
 
 
