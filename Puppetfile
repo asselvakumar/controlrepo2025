@@ -48,6 +48,10 @@ mod 'dsc-securitypolicydsc', '2.10.0-0-9'
 mod 'puppetlabs-pwshlib', '2.0.0'
 mod 'puppetlabs-powershell', '6.1.0'
 
+mod 'puppetlabs-sce_windows', '2.1.0'
+mod 'puppetlabs-sce_linux', '2.5.0'
+
+
 
 
 
