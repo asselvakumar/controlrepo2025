@@ -32,7 +32,6 @@ mod 'puppetlabs-ca_extend', '2.1.0'
 # Below items are for the Metric collector and dashboard setup
 
 mod 'puppetlabs-puppet_metrics_collector', '7.0.3'
-
 mod 'puppetlabs-puppet_metrics_dashboard', '2.5.0'
 
 mod 'puppet-grafana', '7.0.0'
@@ -52,6 +51,9 @@ mod 'puppetlabs-powershell', '6.1.0'
 mod 'puppetlabs-sce_windows', '2.1.0'
 mod 'puppetlabs-sce_linux', '2.5.0'
 
+mod 'mkcustomfact',
+  git:     'git@github.com:asselvakumar/mkcustomfact.git',
+  branch:  'production'
 
 
 
