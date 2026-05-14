@@ -52,7 +52,7 @@ mod 'puppetlabs-sce_windows', '2.1.0'
 mod 'puppetlabs-sce_linux', '2.5.0'
 
 mod 'mkcustomfact',
-  git:     'git@github.com:asselvakumar/mkcustomfact.git',
+  git:     'git@github.com:asselvakumar/mkcustomfact1.git',
   branch:  'production'
 
 
